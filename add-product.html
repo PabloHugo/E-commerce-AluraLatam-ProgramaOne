@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek | E-commerce</title>
+
+    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/add-product.css">
+    <link rel="shortcut icon" href="./img/page-icon.png" type="image-icon">
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <nav class="menu-nav container">
+                <figure class="menu-logo-box">
+                    <img class="menu-logo-img" src="./img/logo.svg" alt="logo-alurageek">
+                </figure>
+                <div class="menu-cart-login-box">
+                    <a class="menu-button" href="./admin.html">Volver   <i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="add-product">
+            <div class="add-product-container container">
+                <h1 class="add-product-form-title">Agregar un nuevo producto</h1>
+                <form  class="add-product-form" action="">
+                    <label class="add-product-form-label" for="product-name">
+                        <p class="add-product-form-field">Nombre del producto:</p>
+                        <input class="add-product-form-input" type="text" id="product-name" autocomplete="off" required>
+                    </label>
+                    <label class="add-product-form-label" for="description">
+                        <p class="add-product-form-field">Descripción del producto:</p>
+                        <input class="add-product-form-input" type="text" id="description" name="description" autocomplete="off" required>
+                    </label>
+                </form>
+                <form class="add-categoriaYprecio-form" action="">
+                    <label class="add-product-form-label" for="category">
+                        <p class="add-product-form-field">Categoría:</p>
+                        <input class="add-product-form-input" type="text" id="category" name="category" autocomplete="off" required>
+                    </label>
+                    <label class="add-product-form-label" for="price">
+                        <p class="add-product-form-field">Precio del producto:</p>
+                        <div class="add-product-price-box">
+                            <span>$</span>
+                            <input class="add-product-form-input" type="number" id="price" name="price" autocomplete="off" required>
+                        </div>
+                    </label>
+                </form>
+                <form class="add-product-form" action="">
+                    <label class="add-product-form-label" for="img">
+                        <p class="add-product-form-field">URL de la imágen:</p>
+                        <input class="add-product-form-input" type="text" id="img" name="url" required>
+                    </label>
+                    <button class="add-product-form-submit" type="submit" id="submit">Agregar producto</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-developed">
+    </div>
+        <p>2022 © Copyright - Create By Pablo de Dominicis</p>
+    </div>
+</footer>
+</body>
+</html>
