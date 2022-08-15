@@ -1,0 +1,72 @@
+.category-button{
+    padding: .5rem .8rem;
+    background-color:#333;
+    color: #F5F5FE;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    width: 9rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    width: 9.1rem;
+}
+.category-button:hover{
+    background-color: #202223; 
+    transform: scale(1.1);
+    font-weight: 900;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.all-products-stock{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.47rem;
+    padding: 1rem;
+}
+.category-actions-box{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: 1rem .5rem .5rem .5rem;
+}
+.category-product-edit{
+    width: 100%;
+    padding: .2rem .8rem;
+    background-color: transparent;
+    color: #2A7AE4;
+    border-radius: .2rem;
+    outline: none;
+    font-size: 1rem;
+    transition: .2s;
+}
+.category-product-edit:hover{
+    background-color: #2A7AE4;
+    color: #F5F5FE;
+    cursor: pointer;
+}
+.category-product-delete{
+    width: 100%;
+    padding: .2rem .8rem;
+    background-color: transparent;
+    color: #E42A2A;
+    border: 1px solid #E42A2A;
+    border-radius: .2rem;
+    outline: none;
+    font-size: 1rem;
+    transition: .2s;
+}
+.category-product-delete:hover{
+    background-color: #E42A2A;
+    color: #F5F5FE;
+    cursor: pointer;
+}
+.footer-developed{
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    color: black; 
+}

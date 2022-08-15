@@ -1,0 +1,94 @@
+main{
+    height: 440px
+}
+.add-product{
+    margin: 5rem 0 5rem 0;
+}
+.add-product-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #E3EEFD;
+}
+.add-product-form-title{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.add-product-form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: #808080;
+    width: 90%;
+    max-width: 600px;
+}
+.add-categoriaYprecio-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #808080;
+    width: 100%;
+    max-width: 600px;
+}
+.add-product-form-label{
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: .5rem;
+    font-size: .8rem;
+}
+.add-product-form-input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    width: 100%;
+}
+.add-product-price-box{
+    display: flex;
+    flex-flow: row;
+}
+.add-product-price-box > span{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.add-product-form-submit{
+    padding: .5rem .8rem;
+    background-color:#333;
+    color: #F5F5FE;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    width: 9.1rem;
+}
+.add-product-form-submit:hover{
+    background-color: #202223; 
+    transform: scale(1.1);
+    font-weight: 900;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.footer-developed{
+    background-color: #F5F5FE;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    height: 115px;
+    text-align: center;
+    font-size: 15px;
+    color: black; 
+}
+.footer-developed{
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    color: black; 
+}
